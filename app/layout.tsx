@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     creator: "@abdo_eth",
   },
-  metadataBase: new URL("https://novel.sh"),
+  metadataBase: new URL("https://chrisabdo.dev"),
   themeColor: "#ffffff",
 };
 
