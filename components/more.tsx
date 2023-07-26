@@ -25,14 +25,14 @@ export default function More() {
       }}
     >
       <motion.h1
-        className="mb-2 font-display text-lg drop-shadow-sm md:text-2xl"
+        className="mb-2 text-muted-foreground font-display text-lg drop-shadow-sm md:text-2xl"
         variants={FADE_UP_ANIMATION_VARIANTS}
       >
         More
       </motion.h1>
 
       <motion.div variants={FADE_UP_ANIMATION_VARIANTS}>
-        <p className="mt-1 text-muted-foreground font-display text-sm drop-shadow-sm md:text-lg">
+        <p className="mt-1  font-display text-sm drop-shadow-sm md:text-lg">
           I&#39;m currently working on a few projects &#40;coming soon!&#41;,
           focusing on AI and design. Do not hesitate to reach out if you have a
           project in mind, or just want to say hi! You can see more of my work

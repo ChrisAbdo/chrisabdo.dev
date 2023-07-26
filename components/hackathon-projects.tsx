@@ -10,7 +10,7 @@ export default function HackathonProjects() {
     {
       name: "Soul Mates",
       description:
-        "A collection of Framer Motion variants for your next project.",
+        "A soulbound token (SBT) issuance engine, built on FEVM (FileCoin Virtual Machine).",
       href: "/",
       hackathon: "📍FileCoin HackFEVM",
       prizes: [
