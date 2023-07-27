@@ -1,9 +1,10 @@
-import { ThemeProvider } from "@/lib/theme-provider";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
+
+import { ThemeProvider } from "@/lib/theme-provider";
 
 const title = "Christopher Abdo - Software Engineer & Designer";
 const description =
