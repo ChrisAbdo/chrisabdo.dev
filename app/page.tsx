@@ -5,8 +5,8 @@ import Currently from "@/components/currently";
 import PersonalProjects from "@/components/personal-projects";
 import Hackathons from "@/components/hackathons";
 import More from "@/components/more";
-import Footer from "@/components/footer";
 import Siganture from "@/components/signature";
+import UIPage from "@/components/ui";
 
 export default function Home() {
   return (
@@ -16,6 +16,7 @@ export default function Home() {
       <div className="mx-auto flex flex-col max-w-7xl px-6 lg:px-8">
         <IntroText />
         <Currently />
+        <UIPage />
         <PersonalProjects />
         <Hackathons />
         <More />

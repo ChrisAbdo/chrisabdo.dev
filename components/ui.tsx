@@ -1,9 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Projects from "./projects";
+import UI from "./ui-alert";
 
-export default function PersonalProjects() {
+export default function UIPage() {
   const FADE_UP_ANIMATION_VARIANTS = {
     hidden: { opacity: 0, y: 10 },
     show: { opacity: 1, y: 0, transition: { type: "spring" } },
@@ -24,16 +24,16 @@ export default function PersonalProjects() {
       }}
     >
       <motion.h1
-        className="mb-2 font-display text-muted-foreground text-lg  md:text-2xl tracking-[-0.09em]"
+        className="mb-2 tracking-[-0.09em] font-display text-muted-foreground text-lg drop-shadow-sm md:text-2xl"
         variants={FADE_UP_ANIMATION_VARIANTS}
       >
-        Personal Projects
+        UI Components
       </motion.h1>
       <motion.div
         className="flex flex-col gap-y-1 tracking-[-0.05em]"
         variants={FADE_UP_ANIMATION_VARIANTS}
       >
-        <Projects />
+        <UI />
       </motion.div>
     </motion.div>
   );

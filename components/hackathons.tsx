@@ -24,13 +24,13 @@ export default function Hackathons() {
       }}
     >
       <motion.h1
-        className="mb-2 text-muted-foreground font-display text-lg drop-shadow-sm md:text-2xl"
+        className="mb-2 text-muted-foreground font-display text-lg drop-shadow-sm md:text-2xl tracking-[-0.09em]"
         variants={FADE_UP_ANIMATION_VARIANTS}
       >
         Hackathon Projects & Awards
       </motion.h1>
       <motion.div
-        className="flex flex-col gap-y-1"
+        className="flex flex-col gap-y-1 tracking-[-0.05em]"
         variants={FADE_UP_ANIMATION_VARIANTS}
       >
         <HackathonProjects />

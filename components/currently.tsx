@@ -23,13 +23,13 @@ export default function Currently() {
       }}
     >
       <motion.h1
-        className="font-display text-muted-foreground text-lg drop-shadow-sm md:text-2xl"
+        className="font-display text-muted-foreground tracking-[-0.09em] text-lg drop-shadow-sm md:text-2xl"
         variants={FADE_UP_ANIMATION_VARIANTS}
       >
         Currently
       </motion.h1>
       <motion.p
-        className="mt-1  font-display text-sm drop-shadow-sm md:text-lg"
+        className="mt-1  font-display text-sm drop-shadow-sm md:text-lg tracking-[-0.05em]"
         variants={FADE_UP_ANIMATION_VARIANTS}
       >
         I&#39;m a Software Engineering student at Drexel University

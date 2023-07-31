@@ -23,13 +23,13 @@ export default function IntroText() {
       }}
     >
       <motion.h1
-        className="font-display text-xl tracking-[-0.02em]  md:text-4xl text-muted-foreground "
+        className=" text-xl tracking-[-0.09em]  md:text-4xl text-muted-foreground "
         variants={FADE_UP_ANIMATION_VARIANTS}
       >
         Abdo, Christopher.
       </motion.h1>
       <motion.p
-        className="font-display text-2xl tracking-[-0.02em]  md:text-5xl "
+        className="font-display text-2xl tracking-[-0.09em]  md:text-5xl "
         variants={FADE_UP_ANIMATION_VARIANTS}
       >
         Software & Design Engineer
